@@ -1,0 +1,16 @@
+AKSHAT HISAAB MANAGER - MOBILE SE APK BANANE KA TARIKA
+
+Is package mein GitHub Actions workflow hai. Isse APK cloud par banegi; mobile mein Android Studio install karne ki zaroorat nahi.
+
+STEP 1: ZIP ko phone mein download karke Extract karein.
+STEP 2: Chrome mein https://github.com kholkar sign in karein.
+STEP 3: New repository banayein. Naam: Akshat-Hisaab-Manager. Public ya Private chun sakte hain; phir Create repository karein.
+STEP 4: Repository ke andar Add file > Upload files par jaayein. Extract kiye gaye project ke ANDAR ki saari files aur folders upload karein. ZIP file ko seedha upload na karein. .github folder bhi upload hona chahiye.
+STEP 5: Commit changes karein. GitHub Actions tab kholein. Agar workflow chal chuka hai to 'Build Akshat Hisaab Manager APK' run dekhein.
+STEP 6: Green tick aane ke baad build run kholein, neeche Artifacts mein 'Akshat-Hisaab-Manager-APK' par tap karke download karein.
+STEP 7: Artifact ZIP extract karein; uske andar app-debug.apk hogi. APK par tap karke install karein. Android pooche to is source se install ki permission dein.
+
+NOTE:
+- APK debug-signed hogi aur personal testing/install ke liye hai; Play Store release ke liye signed release build alag se karni hogi.
+- GitHub UI mobile browser mein badal sakta hai. Agar folder upload mushkil ho, browser ka Desktop site option try karein.
+- App install karne se pehle purane app ke data ka backup lein.
